@@ -1,5 +1,5 @@
 DROP TABLE IF EXISTS users CASCADE;
-DROP TABLE IF EXISTS chats CASCADE;
+DROP TABLE IF EXISTS messages CASCADE;
 
 CREATE TABLE users (
   id SERIAL PRIMARY KEY,
@@ -7,7 +7,7 @@ CREATE TABLE users (
   email VARCHAR(255) UNIQUE,
   native_language VARCHAR(255)
 );
-CREATE TABLE chats (
+CREATE TABLE messages (
   id SERIAL PRIMARY KEY,
   input_message VARCHAR(255),
   translated VARCHAR(255)
