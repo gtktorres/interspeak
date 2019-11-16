@@ -18,12 +18,19 @@ pool.connect((err, db, done) => {
     return console.log(err);
   }
   else {
-    db.query('SELECT * FROM users', (err, table) => {
+    var id = 1;
+    var username = 'test1';
+    var email = 'test2';
+    var native_language = 'test3';
+    db.query('INSERT INTO users (id, username, email, native_language) VALUES($1, $2, $3, $4)',[id, username, email, native_language], (err, table) => {
+      done();
       if(err){
         return console.log(err)
       }
       else {
-        console.log(table)
+        //console.log(table)
+        console.log('INSERTED DATA SUCCESS');
+        db.end();
       }
     })
   }
