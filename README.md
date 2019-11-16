@@ -3,7 +3,7 @@
 
 InterSpeak
 
-Want to learn a language while interacting with native speakers of said language? Welcome to WordSmith, 
+Want to learn a language while interacting with native speakers of said language? Welcome to InterSpeak, 
 a translation text messaging application. Use just like a regular text messaging app, but you will also 
 receive a translated message from the foreign language speaker you are texting! A text based bidirectional universal
 translator!
