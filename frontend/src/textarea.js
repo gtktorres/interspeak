@@ -9,7 +9,7 @@ export class TextArea extends Component {
         this.handleChange =
         this.handleChange.bind(this);
 
-        this.handleSubmit = 
+        this.handleSubmit =
         this.handleSubmit.bind(this);
     }
 
@@ -17,7 +17,7 @@ export class TextArea extends Component {
         this.setState({value:
         event.target.value});
     }
-    
+
     handleSubmit(event) {
         this.setState({text: event});
         console.log(event);
@@ -28,7 +28,7 @@ export class TextArea extends Component {
             <label>
               <textarea className="textarea" type="submit" value={this.state.value} onChange={this.handleChange} />
             </label>
-            
+
           </form>
         );
     }
