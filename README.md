@@ -1,7 +1,7 @@
 # interspeak
 
 
-WordSmith
+InterSpeak
 
 Want to learn a language while interacting with native speakers of said language? Welcome to WordSmith, 
 a translation text messaging application. Use just like a regular text messaging app, but you will also 
