@@ -1,22 +1,23 @@
 .App {
-  text-align: center;
+  background-color: lightblue;
+  display: grid;
+  position: fixed;
+  height: 100%;
+  grid-template-columns: repeat(5, 20vw);
+  grid-template-rows: repeat(5, 20vh);
+  grid-template-areas:
+        ". top top top . ."
+        ". top top top  . ."
+        ". top top top . ."
+        ". top top top . ."
+        ". bottom bottom bottom . .";
 }
 
-.App-logo {
-  height: 40vmin;
+.Top{
+    grid-area: top;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.Bottom{
+    grid-area: bottom;
 }
 
-.App-link {
-  color: #09d3ac;
-}

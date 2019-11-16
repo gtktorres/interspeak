@@ -1,0 +1,24 @@
+.textarea {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    background-color: #282c34;
+    border-radius: 5em;
+    border-width: 1px;
+    border-color:#b1258e;
+    width: 500px;    
+    padding: 10px;
+    align-content: flex-end;
+    vertical-align: bottom;
+    
+}
+
+.send {
+    align-items: flex-end;
+    vertical-align: bottom;
+    padding: 5px;
+    margin: 1px;
+    border-radius: 100px;
+    background-color: #b1258e;
+    border-color:#b1258e;
+}  
