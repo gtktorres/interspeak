@@ -28,7 +28,6 @@ export class TextArea extends Component {
             <label>
               <textarea className="textarea" type="submit" value={this.state.value} onChange={this.handleChange} />
             </label>
-            <input className="send" type="submit" />
           </form>
         );
     }
